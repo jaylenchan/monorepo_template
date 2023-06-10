@@ -1,0 +1,14 @@
+{
+    "extends": "../../tsconfig.base.json",
+    "compilerOptions": {
+        "paths": {
+            "@jeditor/*": [
+                "../../packages/*/src/index"
+            ]
+        },
+        "outDir": "./dist"
+    },
+    "include": [
+        "./src"
+    ]
+}
