@@ -4,10 +4,12 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "compile": "npx tsc -b",
-    "dev": "electron ./dist/main.js"
+    "build": "tsup",
+    "dev": "yarn build && electron ./dist/main.js",
+    "run": "electron ./dist/main.js"
   },
   "devDependencies": {
-    "electron": "^25.1.0"
+    "electron": "^20.1.0",
+    "tsup": "^6.7.0"
   }
 }

@@ -1,13 +1,12 @@
 {
-  "name": "@jeditor/transpiler",
+  "name": "@jeditor/shared",
   "version": "0.0.1",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "clean": "rimraf ./tsconfig.tsbuildinfo",
     "build": "tsup",
     "typecheck": "tsc --project ./tsconfig.json"
-  },
-  "dependencies": {
-    "@jeditor/shared": "workspace:^"
   },
   "devDependencies": {
     "tsup": "^6.7.0"

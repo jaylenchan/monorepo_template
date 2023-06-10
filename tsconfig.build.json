@@ -3,18 +3,20 @@
         "strict": true,
         "useUnknownInCatchVariables": true,
         "allowJs": true,
-        "noEmitOnError": true,
         "skipLibCheck": true,
         "forceConsistentCasingInFileNames": true,
         "esModuleInterop": true,
         "moduleResolution": "node",
         "resolveJsonModule": true,
         "isolatedModules": true,
-        "incremental": true,
-        "newLine": "lf"
+        "newLine": "lf",
+        "noEmitOnError": true,
+        "declaration": true,
+        "noEmit": false,
     },
     "exclude": [
         "**/node_modules",
-        "**/.*/"
+        "**/.*/",
+        "dist"
     ]
 }

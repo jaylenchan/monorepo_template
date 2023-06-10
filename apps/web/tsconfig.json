@@ -1,12 +1,6 @@
 {
-    "extends": "../../tsconfig.base.json",
+    "extends": "../../tsconfig.json",
     "compilerOptions": {
-        "paths": {
-            "@jeditor/*": [
-                "../../packages/*/src/index"
-            ]
-        },
-        "noEmit": true,
         "target": "ES2020",
         "useDefineForClassFields": true,
         "module": "ESNext",

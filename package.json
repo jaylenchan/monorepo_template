@@ -7,6 +7,9 @@
   ],
   "version": "1.0.0",
   "license": "MIT",
+  "scripts": {
+    "compile": "tsc -b"
+  },
   "devDependencies": {
     "@types/node": "20.2.3",
     "rimraf": "^5.0.1",
