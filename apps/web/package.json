@@ -1,0 +1,12 @@
+{
+  "name": "jeditor-web",
+  "version": "0.0.1",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node -r tsconfig-paths/register src/index.ts"
+  },
+  "dependencies": {
+    "@jeditor/transpiler": "workspace:^"
+  }
+}
