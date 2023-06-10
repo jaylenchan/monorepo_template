@@ -13,6 +13,12 @@
         "noEmitOnError": true,
         "declaration": true,
         "noEmit": false,
+        "baseUrl": ".",
+        "paths": {
+            "@jeditor/*": [
+                "packages/*/src"
+            ]
+        }
     },
     "exclude": [
         "**/node_modules",

@@ -11,5 +11,8 @@
   "devDependencies": {
     "electron": "^20.1.0",
     "tsup": "^6.7.0"
+  },
+  "dependencies": {
+    "@jeditor/transpiler": "workspace:^"
   }
 }

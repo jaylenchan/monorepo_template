@@ -1864,6 +1864,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "jeditor-app@workspace:apps/app"
   dependencies:
+    "@jeditor/transpiler": "workspace:^"
     electron: ^20.1.0
     tsup: ^6.7.0
   languageName: unknown

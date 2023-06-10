@@ -10,5 +10,6 @@ export default defineConfig(() => ({
   tsconfig: 'tsconfig.build.json',
   sourcemap: true,
   minify: false,
-  external: ['electron']
+  external: ['electron'],
+  noExternal: [/@jeditor\/*/]
 }));
